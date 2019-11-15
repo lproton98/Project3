@@ -1,13 +1,22 @@
-<div id="googleMap" style="width:100%;height:100%;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-}
-</script>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" href="styles/reset.css">
+      <meta charset = "UTF-8">
+   </head>
+<body>
+<nav>
+            <a href="index.html"> About Me </a>
+            <a href="resume.html"> Resume </a>
+            <a href="travel.html"> Travel </a>
+			<a href="map.html"> Map </a>
+</nav>
+<div id="googleMap" style="width:100%;height:700px;"></div>
+		 
+<script async src="scripts/script.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT6Yw4J4EdEAcnEVKApjBmt-KDf08QQKI&callback=myMap"></script>
+</body>
+</html>
+

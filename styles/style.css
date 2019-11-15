@@ -1,4 +1,8 @@
-.nav{
+@media screen and (min-width: 300px){
+	width: device-width;
+}
+
+nav{
 	background-color: red;
 	font-size: 125%;
 	font-family: arial;
@@ -8,10 +12,10 @@
     text-align:center;
 }
 
-.nav li{
+nav li{
     display:inline;
 }
-.nav a{
+nav a{
     display:inline-block;
     padding:15px;
 }
@@ -22,6 +26,7 @@ h1{
 
 body {
 	background-color: lightblue;
+	height: 100%;
 }
 
 h2{
