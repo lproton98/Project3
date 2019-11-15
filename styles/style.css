@@ -1,7 +1,3 @@
-@media screen and (min-width: 300px){
-	width: device-width;
-}
-
 nav{
 	background-color: red;
 	font-size: 125%;
@@ -148,7 +144,6 @@ dd{
 	vertical-align: middle;
 	display: inline-block;
 	padding-right: 40px;
-	float: center;
 	margin-left: 300px;
 }
 
@@ -192,5 +187,4 @@ dd{
 .wrapper{
 	margin-right: auto;
 	margin-left: auto;
-	width: 960 px;
 }
