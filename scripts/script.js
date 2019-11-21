@@ -18,25 +18,44 @@ var marker = new google.maps.Marker({
         map: map,
         title: 'Lansing'
         });
+
 var marker = new google.maps.Marker({
         position: LatLngLosAlamos,
         map: map,
         title: 'Los Alamos'
         });
+		
 var marker = new google.maps.Marker({
         position: LatLngOakRidge,
         map: map,
         title: 'Oak Ridge'
         });
+
 var marker = new google.maps.Marker({
         position: LatLngPhiladelphia,
         map: map,
         title: 'Philadelphia'
         });
+
 var marker = new google.maps.Marker({
         position: LatLngChicago,
         map: map,
         title: 'Chicago'
         });
+		
+google.maps.event.addListener(marker,'click',function() {
+  map.setZoom(9);
+  map.setCenter(marker.getPosition());
+});
+
+var infowindow = new google.maps.InfoWindow({
+  content:"My current home, the wonderful Chicago. The other locations are places in the United States that I have lived and called home in the past."
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+});
+
 }
+
 

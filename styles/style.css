@@ -22,7 +22,7 @@ h1{
 }
 
 body {
-	background-color: lightblue;
+	background-color: lightgrey;
 	height: 100%;
 }
 
@@ -52,7 +52,6 @@ li{
 }
 
 /* style for About Me page*/
-@media screen and (min-width: 500px) {
 
 .profile img{
 	display: block;
@@ -98,10 +97,10 @@ li{
 	margin-right: auto;
 	width: 250px;
 }
- }
 
 /*Style for Resume page*/
 
+@media screen and (min-width: 500px) and (max-width: 4200px) {
 .resume {
 	font-family: 'Oswald', san-serif;
 }
@@ -120,8 +119,10 @@ dd{
 	font-size: 20px;
 	line-height: 40px;
 }
+}
 
 /*Style for Travel page*/
+
 #travelintro{
 	margin-left: 100px;
 	margin-right: 100px;
@@ -186,8 +187,12 @@ dd{
 	margin-top: 100px;
 }
 
-
 .wrapper{
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#infotext{
+	font-size:90%;
+	text-align: center;
 }
