@@ -1,23 +1,23 @@
-nav{
+nav {
 	background-color: white;
 	font-size: 125%;
 	font-family: arial;
-    border:1px solid;
-    border-width:1px 0;
-    list-style:none;
-    text-align:center;
+	border: 1px solid;
+	border-width: 1px 0;
+	list-style: none;
+	text-align: center;
 }
 
-nav li{
-    display:inline;
+nav li {
+	display: inline;
 }
 
-nav a{
-    display:inline-block;
-    padding:15px;
+nav a {
+	display: inline-block;
+	padding: 15px;
 }
 
-h1{
+h1 {
 	text-align: center;
 }
 
@@ -26,34 +26,35 @@ body {
 	height: 100%;
 }
 
-h2{
+h2 {
 	text-align: center;
 	font-family: arial;
 	font-size: 250%;
 	color: darkred;
 }
 
-h3{
+h3 {
 	font-family: arial;
 	font-size: 150%;
 	color: darkred;
 }
 
-h4{
+h4 {
 	font-size: 150%;
 }
 
-p{
+p {
 	font-size: 25px;
 }
 
-li{
+li {
 	vertical-align: center;
 }
 
+
 /* style for About Me page*/
 
-.profile img{
+.profile img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,13 +62,13 @@ li{
 	margin-bottom: 20px;
 }
 
-.basics{
+.basics {
 	text-align: center;
 	vertical-align: middle;
 	margin-bottom: 50px;
 }
 
-.academic{
+.academic {
 	font-size: 25px;
 	border: 5px solid darkred;
 	padding-top: 10px;
@@ -79,7 +80,7 @@ li{
 	line-height: 30px;
 }
 
-.personal{
+.personal {
 	font-size: 25px;
 	border: 5px solid darkred;
 	padding-top: 10px;
@@ -91,56 +92,55 @@ li{
 	line-height: 30px;
 }
 
-.bvb img{
+.bvb img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 250px;
 }
 
+
 /*Style for Resume page*/
 
 @media screen and (min-width: 500px) and (max-width: 4200px) {
-.resume {
-	font-family: 'Oswald', san-serif;
+	.resume {
+		font-family: 'Oswald', san-serif;
+	}
+	.contact {
+		text-align: center;
+		border: 5px outset darkred;
+	}
+	dl {
+		font-size: 25px;
+		line-height: 50px;
+	}
+	dd {
+		font-size: 20px;
+		line-height: 40px;
+	}
 }
 
-.contact{
-	text-align: center;
-	border: 5px outset darkred;
-}
-
-dl{
-	font-size: 25px;
-	line-height: 50px;
-}
-
-dd{
-	font-size: 20px;
-	line-height: 40px;
-}
-}
 
 /*Style for Travel page*/
 
-#travelintro{
+#travelintro {
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
-.topdest{
+.topdest {
 	text-align: center;
 	clear: right;
 	margin-top: 50px;
 }
 
-.dreamdest{
+.dreamdest {
 	text-align: center;
 	clear: right;
 	margin-top: 100px;
 }
 
-.cities{
+.cities {
 	margin: 1em;
 	font-size: 170%;
 	border: 5px dotted darkred;
@@ -150,15 +150,15 @@ dd{
 	margin-left: 300px;
 }
 
-.glidingpic img{
+.glidingpic img {
 	border-style: outset;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width:30%;
-} 
+	width: 30%;
+}
 
-.chicago img{
+.chicago img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -167,7 +167,7 @@ dd{
 	padding-right: 150px;
 }
 
-.petra img{
+.petra img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -178,20 +178,19 @@ dd{
 	padding-bottom: 50px;
 }
 
-
-.adthoughts{
+.adthoughts {
 	padding: 1em;
 	margin-top: 100px;
 	clear: right;
 	margin-top: 100px;
 }
 
-.wrapper{
+.wrapper {
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#infotext{
-	font-size:100%;
+#infotext {
+	font-size: 100%;
 	text-align: center;
 }
