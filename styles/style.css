@@ -1,5 +1,5 @@
 nav{
-	background-color: red;
+	background-color: white;
 	font-size: 125%;
 	font-family: arial;
     border:1px solid;
@@ -22,7 +22,7 @@ h1{
 }
 
 body {
-	background-color: lightgrey;
+	background-color: lightblue;
 	height: 100%;
 }
 
@@ -142,7 +142,6 @@ dd{
 
 .cities{
 	margin: 1em;
-	color: darkred;
 	font-size: 170%;
 	border: 5px dotted darkred;
 	vertical-align: middle;
@@ -193,6 +192,6 @@ dd{
 }
 
 #infotext{
-	font-size:90%;
+	font-size:100%;
 	text-align: center;
 }
