@@ -1,289 +1,250 @@
 nav {
-	background-color: white;
-	border: 1px solid;
-	border-width: 1px 0;
-	list-style: none;
-	text-align: center;
+     background-color: white;
+     border: 1px solid;
+     border-width: 1px 0;
+     list-style: none;
+     text-align: center;
 }
-
-nav li {
-	display: inline;
+ nav li {
+     display: inline;
 }
-
-nav a {
-	display: inline-block;
-	padding: 15px;
+ nav a {
+     display: inline-block;
+     padding: 15px;
 }
-
-h1 {
-	text-align: center;
+ h1 {
+     text-align: center;
 }
-
-body {
-	background-color: lightblue;
-	height: 100%;
+ body {
+     background-color: lightblue;
+     height: 100%;
 }
-
-h2 {
-	text-align: center;
-	font-family: arial;
-	font-size: 250%;
-	color: darkred;
+ h2 {
+     text-align: center;
+     font-family: arial;
+     font-size: 250%;
+     color: darkred;
 }
-
-h3 {
-	font-family: arial;
-	font-size: 150%;
-	color: darkred;
+ h3 {
+     font-family: arial;
+     font-size: 150%;
+     color: darkred;
 }
-
-h4 {
-	font-size: 150%;
+ h4 {
+     font-size: 150%;
 }
-
-p {
-	font-size: 25px;
+ p {
+     font-size: 25px;
 }
-
-li {
-	vertical-align: center;
+ li {
+     vertical-align: center;
 }
-
-
 /* style for About Me page*/
-
-.profile img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 450px;
-	margin-bottom: 20px;
+ .profile img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 450px;
+     margin-bottom: 20px;
 }
-
-.basics {
-	text-align: center;
-	vertical-align: middle;
-	margin-bottom: 50px;
+ .basics {
+     text-align: center;
+     vertical-align: middle;
+     margin-bottom: 50px;
 }
-
-.academic {
-	font-size: 25px;
-	border: 5px solid darkred;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 30px;
-	background-image: linear-gradient(to bottom right, grey, white);
-	text-align: center;
-	vertical-align: middle;
-	line-height: 30px;
+ .academic {
+     font-size: 25px;
+     border: 5px solid darkred;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 30px;
+     background-image: linear-gradient(to bottom right, grey, white);
+     text-align: center;
+     vertical-align: middle;
+     line-height: 30px;
 }
-
-.personal {
-	font-size: 25px;
-	border: 2px solid darkred;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 30px;
-	background-image: linear-gradient(to bottom right, white, grey);
-	text-align: center;
-	vertical-align: middle;
-	line-height: 30px;
+ .personal {
+     font-size: 25px;
+     border: 2px solid darkred;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 30px;
+     background-image: linear-gradient(to bottom right, white, grey);
+     text-align: center;
+     vertical-align: middle;
+     line-height: 30px;
 }
-
-.bvb img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 250px;
+ .bvb img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 250px;
 }
-
-@media screen and (min-width: 800px) {
-.personal{
-	background-image: linear-gradient(to bottom right, grey, white);
-	font-size: 30px;
-	border: 5px solid darkred;
-}	
-.academic{
-	background-image: linear-gradient(to bottom right, grey, white);
-	font-size: 30px;
-	border: 5px solid darkred;
-}	
+ @media screen and (min-width: 800px) {
+     .personal{
+         background-image: linear-gradient(to bottom right, grey, white);
+         font-size: 30px;
+         border: 5px solid darkred;
+    }
+     .academic{
+         background-image: linear-gradient(to bottom right, grey, white);
+         font-size: 30px;
+         border: 5px solid darkred;
+    }
 }
-
 /*Style for Resume page*/
-
-@media screen and (min-width: 500px) {
-	.resume {
-		font-family: 'Oswald', san-serif;
-	}
-	.contact {
-		text-align: center;
-		border: 5px outset darkred;
-	}
-	dl {
-		font-size: 25px;
-		line-height: 50px;
-	}
-	dd {
-		font-size: 20px;
-		line-height: 40px;
-	}
-
-
-/*Style for Travel page*/
-
-#travelintro {
-	margin-left: 100px;
-	margin-right: 100px;
-}
-
-.topdest {
-	text-align: center;
-	clear: right;
-	margin-top: 50px;
-}
-
-.dreamdest {
-	text-align: center;
-	clear: right;
-	margin-top: 100px;
-}
-
-.cities {
-	margin: 1em;
-	font-size: 170%;
-	border: 5px dotted darkred;
-	vertical-align: middle;
-	display: inline-block;
-	padding-right: 40px;
-	margin-left: 300px;
-}
-
-.glidingpic img {
-	border-style: outset;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-}
-
-.chicago img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	float: right;
-	padding-right: 150px;
-}
-
-.petra img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 40%;
-	width: 30%;
-	float: right;
-	padding-right: 150px;
-	padding-bottom: 50px;
-}
-
-/* Slideshow container */
-.slider-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.adthoughts {
-	padding: 1em;
-	margin-top: 100px;
-	clear: right;
-	margin-top: 100px;
-}
-
-.wrapper {
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#infotext {
-	font-size: 100%;
-	text-align: center;
-}
+ @media screen and (min-width: 500px) {
+     .resume {
+         font-family: 'Oswald', san-serif;
+    }
+     .contact {
+         text-align: center;
+         border: 5px outset darkred;
+    }
+     dl {
+         font-size: 25px;
+         line-height: 50px;
+    }
+     dd {
+         font-size: 20px;
+         line-height: 40px;
+    }
+    /*Style for Travel page*/
+     #travelintro {
+         margin-left: 100px;
+         margin-right: 100px;
+    }
+     .topdest {
+         text-align: center;
+         clear: right;
+         margin-top: 50px;
+    }
+     .dreamdest {
+         text-align: center;
+         clear: right;
+         margin-top: 100px;
+    }
+     .cities {
+         margin: 1em;
+         font-size: 170%;
+         border: 5px dotted darkred;
+         vertical-align: middle;
+         display: inline-block;
+         padding-right: 40px;
+         margin-left: 300px;
+    }
+     .glidingpic img {
+         border-style: outset;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 30%;
+    }
+     .chicago img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 30%;
+         float: right;
+         padding-right: 150px;
+    }
+     .petra img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 40%;
+         width: 30%;
+         float: right;
+         padding-right: 150px;
+         padding-bottom: 50px;
+    }
+    /*image slider style*/
+     .slider-container {
+         max-width: 1000px;
+         position: relative;
+         margin: auto;
+    }
+     .mySlides {
+         display: none;
+    }
+     .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         width: auto;
+         margin-top: -22px;
+         padding: 16px;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ease;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+    }
+     .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+    }
+     .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+    }
+     .text {
+         color: #f2f2f2;
+         font-size: 15px;
+         padding: 8px 12px;
+         position: absolute;
+         bottom: 8px;
+         width: 100%;
+         text-align: center;
+    }
+     .dot {
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         margin: 0 2px;
+         background-color: #bbb;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+    }
+     .active, .dot:hover {
+         background-color: #717171;
+    }
+    /* Fading animation */
+     .fade {
+         -webkit-animation-name: fade;
+         -webkit-animation-duration: 1.5s;
+         animation-name: fade;
+         animation-duration: 1.5s;
+    }
+     @-webkit-keyframes fade {
+         from {
+            opacity: .4
+        }
+         to {
+            opacity: 1
+        }
+    }
+     @keyframes fade {
+         from {
+            opacity: .4
+        }
+         to {
+            opacity: 1
+        }
+    }
+     .adthoughts {
+         padding: 1em;
+         margin-top: 100px;
+         clear: right;
+         margin-top: 100px;
+    }
+     .wrapper {
+         margin-right: auto;
+         margin-left: auto;
+    }
+     #infotext {
+         font-size: 100%;
+         text-align: center;
+    }
+    
